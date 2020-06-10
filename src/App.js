@@ -18,10 +18,14 @@ import Inline from './components/Inline'
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form'
+import LifecycleA from './components/LifecycleA'
+import FragmentDemo from './components/FragmentDemo'
+import Table from './components/Table'
+import FragmentKey from './components/FragmentKey'
 function App() {
   return (
     <div className="App">
-      <Form></Form>
+      <FragmentKey></FragmentKey>
     </div>
   );
 }
