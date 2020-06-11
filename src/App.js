@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet'
 import Hello from './components/Hello'
@@ -22,10 +22,14 @@ import LifecycleA from './components/LifecycleA'
 import FragmentDemo from './components/FragmentDemo'
 import Table from './components/Table'
 import FragmentKey from './components/FragmentKey'
+import PureComp from './components/PureComp'
+import ParentComp from './components/ParentComp'
+import MemoComp from './components/MemoComp'*/
+import RefsDemo from './components/RefsDemo'
 function App() {
   return (
     <div className="App">
-      <FragmentKey></FragmentKey>
+      <RefsDemo></RefsDemo>
     </div>
   );
 }
