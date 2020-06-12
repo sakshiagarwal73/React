@@ -8,17 +8,22 @@ class RefsDemo extends React.Component
            this.inputRef = React.createRef();
 	  }
       
-      comonentDidMount()
+      componentDidMount()
       {
       	this.inputRef.current.focus();
       	console.log("RefsDemo");
       	console.log(this.inputRef);
       }
 
+      clickHandler = () => {
+      	alert(this.inputRef.current.value);
+      }
+
       render()
       {
       	return (<div>
-      		    <input type = "text" ref = {this.inputRef}/>
+      		    <input type = "text" align = "right" ref = {this.inputRef}/>
+      		    <button onClick = {this.clickHandler}>Click</button>
       		</div>);
       }
 }

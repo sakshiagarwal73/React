@@ -26,10 +26,15 @@ import PureComp from './components/PureComp'
 import ParentComp from './components/ParentComp'
 import MemoComp from './components/MemoComp'*/
 import RefsDemo from './components/RefsDemo'
+import FocusInput from './components/FocusInput'
+import FRparentinput from './components/FRparentinput'
+//import Calc from './components/Calc'
+import Test from './components/Test'
+import EventBind from './components/EventBind'
 function App() {
   return (
     <div className="App">
-      <RefsDemo></RefsDemo>
+      <EventBind></EventBind>
     </div>
   );
 }
