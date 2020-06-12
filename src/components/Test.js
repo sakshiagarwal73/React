@@ -11,7 +11,7 @@ class Test extends React.component
             name : "sakshi"
 		};
 
-		this.changeOnClick = this.changeOnClick.bind(this);
+		this.changeMessage = this.changeMessage.bind(this);
 	}
 
 	changeMessage()
