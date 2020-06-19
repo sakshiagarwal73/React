@@ -28,13 +28,15 @@ import MemoComp from './components/MemoComp'*/
 import RefsDemo from './components/RefsDemo'
 import FocusInput from './components/FocusInput'
 import FRparentinput from './components/FRparentinput'
-//import Calc from './components/Calc'
+import Calc from './components/Calc'
 import Test from './components/Test'
 import EventBind from './components/EventBind'
+import PersonList from './components/PersonList'
+import PortalDemo from './components/PortalDemo'
 function App() {
   return (
     <div className="App">
-      <EventBind></EventBind>
+      <PortalDemo></PortalDemo>
     </div>
   );
 }

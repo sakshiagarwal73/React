@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Test extends React.component
+class Test extends React.Component
 {
 	constructor(props)
 	{
@@ -16,14 +16,14 @@ class Test extends React.component
 
 	changeMessage()
 	{
-		this.setState({message: "hi",name : "sonakshi"})
-		//() => <h2>{this.state.name} {this.state.message}</h2>
+		this.setState({message: "hi"},() => <h2>{this.state.message} {this.state.name}</h2>);
+		
 	}
 
 	render()
 	{
          return (<div>
-         	
+         	<h2>{this.state.message} {this.state.name}</h2>
          	<button onClick = {this.changeMessage}>Click</button>
          	</div>);
 	}
